@@ -1,6 +1,8 @@
 # Animation of a trefoil knot from neuron dynamics
 This repository contains the necessary code to create an animation of population dynamics following a Trefoil knot.
 
+<img src="output/snapshot.png" alt="Snapshot of the neural trefoil animation" width="500"/>
+
 ## Requirements
 This work requires the latest version of matplotlib. In fact, the latest version was modified to fix the Z-ordering problem.
 ```
@@ -22,10 +24,6 @@ $$
 $$
 
 See [this blog post](https://mathcurve.com/courbes3d.gb/noeuds/noeuddetrefle.shtml) for more details.
-
-
-
-
 
 ## License
 
