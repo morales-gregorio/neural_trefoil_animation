@@ -4,6 +4,11 @@ This repository contains the necessary code to create an animation of population
 <img src="output/snapshot.png" alt="Snapshot of the neural trefoil animation" width="500"/>
 
 ## Requirements
+The exact conda environment used to create the animation can be created from the provided `environment.yml` file as:
+```
+conda env create -f environment.yaml
+```
+
 This work requires the latest version of matplotlib. In fact, the latest version was modified to fix the Z-ordering problem.
 ```
 matplotlib >= 3.6.1
